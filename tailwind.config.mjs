@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
   	extend: {
+			screens: {
+        'xs': '320px', // Custom breakpoint for small devices
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

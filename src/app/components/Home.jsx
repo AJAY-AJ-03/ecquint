@@ -2,7 +2,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <section className="relative bg-[rgb(19,19,24)] h-screen w-full">
+    <section className="relative   h-screen w-full">
       {/* Background Image */}
       <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/6804084/pexels-photo-6804084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center bg-fixed"></div>
 
@@ -15,7 +15,7 @@ const HomePage = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Ecquint IT Solutions
           </h1>
-          <p className="mt-4 text-lg">
+          <p className="mt-4 sm:[mt-40px] text-lg">
             At Ecquint IT Solutions, we specialize in delivering cutting-edge
             technology solutions that empower businesses to scale, innovate,
             and thrive in the digital landscape. With expertise in software

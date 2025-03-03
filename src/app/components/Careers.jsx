@@ -5,7 +5,7 @@ const Careers = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-[rgb(19,19,24)] h-screen w-full">
+    <section className="relative  bg-gradient-to-r from-[rgba(161,0,255,0.9)] to-[rgba(50,0,100,0.9)] h-screen w-full">
       {/* Background Image */}
       <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/4069291/pexels-photo-4069291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center bg-fixed"></div>
 

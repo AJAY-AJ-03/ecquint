@@ -101,7 +101,7 @@ const AboutUs = () => {
               key={index}
               className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center text-center border border-gray-300 hover:border-blue-500 transition duration-300"
             >
-              <div className="text-blue-500 text-5xl mb-5">{pillar.icon}</div>
+              <div className=" text-5xl text-[rgb(19,19,24)] mb-5">{pillar.icon}</div>
               <h3 className="text-2xl font-semibold mb-4">{pillar.title}</h3>
               <p className="text-gray-600">{pillar.description}</p>
             </div>
